@@ -12,7 +12,7 @@ public class SampleController {
 
 
 	
-	@RequestMapping(value = {"","/","/home")
+	@RequestMapping(value = {"","/","/home"})
 	public String showHomePage(ModelMap model) {
 				
 		try {
