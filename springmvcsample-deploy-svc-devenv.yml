@@ -21,6 +21,7 @@ spec:
         image: 192.168.10.17:5002/k8s-devops/springmvcsample:latest
         ports:
         - containerPort: 8080
+        imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
