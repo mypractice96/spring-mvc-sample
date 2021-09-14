@@ -30,7 +30,7 @@ class SampleControllerTests {
 	@Test
 	void testRegisterUser() {
 		String actualResult = controller.registerUser("vamsi","password","vamsi@gmail.com","9123456789");
-		int expected = "Success";
+		String expected = "Success";
 		assertEquals(expected, actualResult);
 	}
 	
