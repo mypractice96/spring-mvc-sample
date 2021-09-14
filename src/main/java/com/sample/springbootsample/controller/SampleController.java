@@ -46,7 +46,7 @@ public class SampleController {
 	public String registerUser(String username, String password, String email,String mobile){		
 		addDetailsToDB(username,password,email,mobile);
 		sendWelcomeMail(email);
-		sendWelcomeMail(mobile);		
+		sendWelcomeMessage(mobile);		
 		return "Success";
 	}
 	
