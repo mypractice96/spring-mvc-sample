@@ -30,4 +30,10 @@ public class SampleController {
 	public void showHomePage() {
 		System.exit(0);
 	}
+	
+	
+	public void add(int a, int b) {
+		int res = a + b;
+		return res;
+	}
 }
