@@ -53,13 +53,16 @@ public class SampleController {
 	
 	void addDetailsToDB(String username, String password, String email, String mobile){
 		//Code : Add the userdetails to database
+		System.out.println("Added "+username+"'s" details to database");
 	}
 	
 	void sendWelcomeMail(String email){
 		// Code : Use SMTP server and send email
+		System.out.println("Welcome mail sent to "+email);
 	}
 	
 	void sendWelcomeMessage(String mobile){
 		// Code : Use SMS gateway and send welcome message
+		System.out.println("Welcome message sent to "+mobile);
 	}
 }
