@@ -32,7 +32,7 @@ public class SampleController {
 	}
 	
 	
-	public void add(int a, int b) {
+	public int add(int a, int b) {
 		int res = a + b;
 		return res;
 	}
