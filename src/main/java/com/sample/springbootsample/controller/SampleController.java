@@ -32,8 +32,34 @@ public class SampleController {
 	}
 	
 	
+	
+	/* Unit Testing Example */
 	public int add(int a, int b) {
 		int res = a + b;
 		return res;
+	}
+	
+	
+	
+	/* Integration Testing Example */
+	
+	public String registerUser(String username, String password, String email,String mobile){		
+		addDetailsToDB(username,password,email,mobile);
+		sendWelcomeMail(email);
+		sendWelcomeMail(mobile);		
+		return "Success";
+	}
+	
+	
+	void addDetailsToDB(String username, String password, String email, String mobile){
+		//Code : Add the userdetails to database
+	}
+	
+	void sendWelcomeMail(String email){
+		// Code : Use SMTP server and send email
+	}
+	
+	void sendWelcomeMessage(String mobile){
+		// Code : Use SMS gateway and send welcome message
 	}
 }
