@@ -53,7 +53,7 @@ public class SampleController {
 	
 	void addDetailsToDB(String username, String password, String email, String mobile){
 		//Code : Add the userdetails to database
-		System.out.println("Added "+username+"'s" details to database");
+		System.out.println("Added "+username+"'s details to database");
 	}
 	
 	void sendWelcomeMail(String email){
