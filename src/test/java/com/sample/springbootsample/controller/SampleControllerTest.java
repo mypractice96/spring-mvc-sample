@@ -13,14 +13,14 @@ class SampleControllerTests {
 	void testAddition1() {
 		int actualResult = controller.add(2,3);
 		int expected = 5;
-		assertEquals(expected, actual);
+		assertEquals(expected, actualResult);
 	}
   
         @Test
 	void testAddition2() {
 		int actualResult = controller.add(-2,-3);
 		int expected = -5;
-		assertEquals(expected, actual);
+		assertEquals(expected, actualResult);
 	}
 
 }
