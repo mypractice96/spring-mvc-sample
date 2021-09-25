@@ -8,7 +8,7 @@
  
 <style type="text/css">
 body {
-	background-color: blue;
+	background-color: green;
 	color:white;
 }
 td{
